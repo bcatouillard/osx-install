@@ -1,0 +1,157 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Night Owl",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "liveshare.presence": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "json.schemas": [],
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontSize": 12,
+  "aws.onDefaultRegionMissing": "add",
+  "aws.suppressPrompts": {
+    "apprunnerNotifyPricing": false,
+    "ecsRunCommand": false,
+    "ecsRunCommandDisable": false,
+    "ecsRunCommandEnable": false,
+    "yamlExtPrompt": true,
+    "fileViewerEdit": false,
+    "regionAddAutomatically": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorCustomizations": {},
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true,
+    "typescript": false,
+    "vue": true
+  },
+  "liveshare.connectionMode": "relay",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "redhat.telemetry.enabled": true,
+  "sqltools.useNodeRuntime": true,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.preview": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.snippetSuggestions": "top",
+  "explorer.confirmDelete": false,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "python.formatting.provider": "black",
+  "vs-kubernetes": {
+    "vs-kubernetes.crd-code-completion": "disabled",
+    "vs-kubernetes.ignore-recommendations": true,
+    "vs-kubernetes.minikube-show-information-expiration": "2025-05-18T14:51:18.922Z"
+  },
+  "debug.inlineValues": "on",
+  "files.autoSave": "afterDelay",
+  "svg.preview.mode": "svg",
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "terminal.integrated.env.linux": {},
+  "terminal.external.linuxExec": "iTerm2",
+  "autoDocstring.docstringFormat": "sphinx",
+  "autoDocstring.includeExtendedSummary": true,
+  "autoDocstring.includeName": true,
+  "docify.commentService.docstringFormat": "reST",
+  "docify.translateService.docstringFormat": "reST",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
+  },
+  "sonarlint.rules": {
+    "secrets:S6698": {
+      "level": "off"
+    },
+    "python:S101": {
+      "level": "off"
+    },
+    "python:S6663": {
+      "level": "off"
+    },
+    "python:S1135": {
+      "level": "off"
+    },
+    "python:S1172": {
+      "level": "off"
+    },
+    "python:S112": {
+      "level": "off"
+    },
+    "python:S5632": {
+      "level": "on"
+    },
+    "docker:S6596": {
+      "level": "on"
+    },
+    "python:S1192": {
+      "level": "on"
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "github.copilot.advanced": {},
+  "editor.fontVariations": false,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 1.2,
+  "editor.fontSize": 13,
+  "datadog.telemetry.setup.enableTelemetry": "enabled",
+  "git.openRepositoryInParentFolders": "never",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "none",
+  "go.toolsManagement.autoUpdate": true,
+  "gitlens.advanced.messages": {
+    "suppressIntegrationRequestTimedOutWarning": true
+  },
+  "makefile.configureOnOpen": false,
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  },
+  "python.locator": "js"
+}

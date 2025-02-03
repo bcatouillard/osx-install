@@ -1,0 +1,14 @@
+[user]
+	name = Benjamin Catouillard
+	email = catouillard.benjamin@gmail.com
+[core]
+	editor = code -w
+[merge]
+	tool = code
+	ff = no
+	commit = no
+[pull]
+	ff = only
+	rebase = false
+[push]
+	recurseSubmodules = check
