@@ -24,8 +24,10 @@ brew install vim
 brew install vite
 brew install vault
 brew install protobuf
-brew install raycast
+brew install jq
+brew install warrensbox/tap/tfswitch
 
+brew install --cask raycast
 brew install --cask iterm2
 brew install --cask microsoft-edge
 brew install --cask discord
